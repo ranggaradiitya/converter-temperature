@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-up">
+            <p>Temperature Converter</p>
+        </div>
+        <div class="box-down">
+            <input type="text" class="box-child-up" id="input">
+            <select name="temperature" id="temperature-input" class="box-child-down">
+                <option value="Celcius">Celcius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+        </div>
+        <div class="equal">=</div>
+        <div class="box-down">
+            <input type="text" class="box-child-up" id="output" readonly>
+            <select name="temperature" id="temperature-output" class="box-child-down">
+                <option value="Celcius">Celcius</option>
+                <option value="Fahrenheit" selected>Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
